@@ -6,6 +6,7 @@
     --font: "Nunito Sans", sans-serif;
 
 }
+
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
@@ -25,11 +26,13 @@ h1 {
         color: var(--bg-color);
         font-weight: 700;
     }
+
 nav {
         display: flex;
         justify-content: center;
         font-weight: 400;
     }
+
 nav a {
         text-decoration: none;
         color: var(--bg-color);
@@ -42,19 +45,23 @@ nav a:hover {
         transform: scale(0.90);
         transition: transform 0.1s;
     }
+
  .graficos-container {
     margin: 5rem;
 }
+
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
     border: var(--secondary-color) solid 2px;
 }
+
 span {
     font-weight: bold;
     color: var(--secondary-color);
 }
+
 footer {
         display: flex;
         align-items: center;
